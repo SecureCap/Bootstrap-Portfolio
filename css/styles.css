@@ -51,7 +51,10 @@ main {
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #8585ad!important;
+}
+a.nav-link:hover {
+  background: #8585ad!important;
 }
 
 .navbar {
@@ -84,6 +87,14 @@ main {
   text-align: center;
   background: #8585ad;
 }
+a {
+  
+  text-align: center;
+  display: block;
+  
+  /* padding: 0 10px 0 10px!important; */
+}
+
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
