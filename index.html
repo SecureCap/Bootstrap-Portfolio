@@ -1,79 +1,87 @@
 <!DOCTYPE html>
-<html lang=“en-us”> 
+<html lang="en-us">
+
 <head>
-<meta charset=“UTF-8”>
-<title>About | Terry Williams </title>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="stylesheet" href="css/style.css" media="screen">
+  <title>About | Terry Williams</title>
 
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" media="screen">
 
- </head>
-<body> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Terry Williams</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                  <ul class="navbar-nav mr-auto">
-                    
-                    
-                   
-                  </ul>
-                  <span class="navbar-text">
-                        <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                              </ul>
-                  </span>
-                </div>
-              </nav>
+</head>
 
-              <div class="container">
-                  <div class="row">
-                      <div class= "col-md-8">
-                          <h1>About Me</h1>
-                      </div>
-                      <div class="col-md-4">
-                            <div class="card">
-                                    <div class="card-header">
-                                      SideBar
-                                    </div>
-                                    <div class="card-body">
-                                      <p class="card-text">Side Content.</p>
-                                    </div>
-                                  </div>
-                      </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-4">
-                      <img src="imgs/Webp.net-resizeimage.jpg" alt="Terry Williams">
-                    </div>
-                    <div class="col-md-4">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tellus sed felis consectetur auctor eget non justo. Nunc in laoreet nunc. Quisque accumsan tincidunt neque, at dictum turpis. In hac habitasse platea dictumst. </p>
-                    </div>
-                  </div>
-              </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">Terry Williams</a>
+      </div>
+      <button class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
-  
-              <footer class="footer">
-                <div class="two-toned-footer-color"></div>
-                <p class="text-muted text-muted-footer text-center">
-                  &copy; Copyright 2018 Terry Williams
-                </p>
-              </footer>
-       
-   
+  <!-- Start of container -->
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="imgs/Webp.net-resizeimage.jpg" alt="Terry Williams" id="about-image" />
+          <p>I utilize positive habits of thought and action every day, every hour to improve my life and others around me. My value driven attitude helps employers solve problems at an accelerated rate. By amplifying my degree of failure I became proficient at time management, ability to learn, communication, and business strategies. I received a Bachelors of Arts in Economics from the University of Texas at Austin in  the spring of 2016 and completed a coding bootcamp from The University of Texas in the fall of 2018. </p>
+          <br />
+          <p>July 25th of 2017 I founded a company called Secure Capital LLC, that specialized in automated teller machine sales and repairs. Along this journey of entrepreneurship and apprenticeship I acquired skills in agile methodology, leadership, and taking risk. My core values and history has conditioned me to become one of the best web developers by connecting good attributes with compounding interest.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- End of container -->
 
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2018 Terry Williams
+    </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
 </body>
+
 </html>
